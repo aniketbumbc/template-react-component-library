@@ -10,13 +10,13 @@ export default [
             {
                 file: 'dist/index.cjs.js',
                 format: 'cjs',
-                sourcemap: true,
+                sourcemap: false,
                 exports: 'named'
             },
             {
                 file: 'dist/index.esm.js',
                 format: 'esm',
-                sourcemap: true
+                sourcemap: false
             }
         ],
         plugins: [
@@ -27,7 +27,8 @@ export default [
                 compilerOptions: {
                     outDir: './dist',
                     declaration: true,
-                    declarationDir: './dist/types'
+                    declarationDir: './dist/types',
+                    sourceMap: false
                 }
             })
         ],

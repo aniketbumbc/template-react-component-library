@@ -9,7 +9,7 @@
     ],
     "jsx": "react-jsx",
     "declaration": true,
-    "sourceMap": true,
+    "sourceMap": false,
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
