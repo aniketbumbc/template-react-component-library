@@ -30,6 +30,6 @@
     "tslib": "^2.8.1"
   },
   "publishConfig": {
-   "registry": "https://npm.pkg.github.com/aniketumbc"
+   "registry": "https://npm.pkg.github.com/aniketbumbc"
   }
 }
