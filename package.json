@@ -1,6 +1,7 @@
 {
-  "name": "template-react-component-library",
+  "name": "@aniketbumbc/template-react-component-library",
   "version": "0.0.1",
+  "private": false,
   "description": "react component library",
   "license": "ISC",
   "author": "aniketumbc",
@@ -27,5 +28,8 @@
     "rollup-plugin-dts": "^6.3.0",
     "typescript": "^5.9.3",
     "tslib": "^2.8.1"
+  },
+  "publishConfig": {
+   "registry": "https://npm.pkg.github.com/aniketumbc"
   }
 }
